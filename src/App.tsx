@@ -1,25 +1,30 @@
+import { useState } from 'react';
 import * as C from './App.styles'
 
 /* Problems to solve: 
    1. Delete the Default body margin (8px);
-   2. Create the Toggle Menu behavior;
    3. Create the Exclusive Games Grid responsive;
 */
 
 const App = () => {
+  const [isOpen, setIsOpen] = useState<boolean>(false); 
+  const menuClassName = isOpen ? "openMenu" : "closedMenu";
+  const handleClickMenu = () => { 
+    setIsOpen(!isOpen);
+  }
   return (
     <C.Container> {/* Body */}
 
       <C.Header>
         <nav>
         <img src="./img/logo.png" alt="" className='logo' />
-        <ul>
+        <ul className={menuClassName}>
           <li><a href="#">Game Controllers</a></li>
           <li><a href="#">Exclusive Games</a></li>
           <li><a href="#">Cupoms</a></li>
           <li><a href="#">Others</a></li>
         </ul>
-        <img src="./img/menu.png" alt="" className='menu-icon' />
+        <img src="./img/menu.png" alt="" className='menu-icon' onClick={handleClickMenu}/>
         </nav>
       </C.Header>
 

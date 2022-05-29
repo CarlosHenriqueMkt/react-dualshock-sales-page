@@ -55,19 +55,36 @@ export const Header = styled.header`
         display: none;
     }
 
-    @media only screen and (max-width:700px) {
+    .closedMenu, .openMenu {
+        transition: height 0.7s ease-in-out;
+        display: none;
+        overflow: hidden;
+    }
+
+    @media (max-width:700px) {
         
         nav {
             justify-content: space-between;
         }
        
         nav ul {
+            display: inline-block;
             width: 100%;
             background: linear-gradient(#fb54a2, #ff575a);
             position: absolute;
             top: 75px;
             right: 0;
             z-index: 2;
+        }
+
+        .openMenu {
+            height: 118px;
+            display: inline-block;
+        }
+
+        .closedMenu {
+            height: 0;
+            display: inline-block;
         }
 
         nav ul li {
