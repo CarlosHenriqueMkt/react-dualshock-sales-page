@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from "styled-components"; 
 
-export const Container = styled.body` /* My tag body have a default 8px margin that I don't know how to delete */
+export const Container = styled.div` /* My tag body have a default 8px margin that I don't know how to delete */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -57,7 +57,6 @@ export const Header = styled.header`
 
     .closedMenu, .openMenu {
         transition: height 0.7s ease-in-out;
-        display: none;
         overflow: hidden;
     }
 
@@ -108,10 +107,12 @@ export const MainContent = styled.main`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 100px 0;
+    margin: 50px 0;
     padding-left: 8%;
     padding-right: 8%;
     overflow: hidden;
+
+
 
     .col-1 {
         flex-basis: 40%;
@@ -190,7 +191,7 @@ export const MainContent = styled.main`
             background: linear-gradient(#ff54a2, #ff575a);
             border-radius: 20px 0 0 20px;
             height: 100%;
-            width: 80%;
+            width: 90%;
             z-index: -1;
             transform: translateX(150px); 
         }
@@ -214,6 +215,7 @@ export const MainContent = styled.main`
     @media only screen and (max-width:700px) {
         flex-direction: column-reverse;
         margin: 50px 0;
+        
 
         .col-2{
             flex-basis: 100%;
@@ -242,11 +244,70 @@ export const MainContent = styled.main`
     }
 `;
 
-export const Games = styled.section``
+export const Games = styled.section`
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+    padding-left: 8%;
+    padding-right: 8%;
+    overflow: hidden;
+
+    width: 100%;
+
+    .gameTittle {
+        position: relative;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+
+    .gameTittle::after {
+        content:'';
+        width: 10px;
+        height: 57%;
+        background: linear-gradient(#ff469f, #ff6062);
+        position: absolute;
+        left: -40px;
+        top: 8px;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    p {
+        color: #707070;
+        font-size: 17px;
+    }
+
+    h2, p {
+        margin: 0px;
+    }
+
+    img {
+        max-width: auto;
+        max-height: auto;
+    }
+    
+    .grid-columns {
+        display: grid;
+        grid: repeat(2, 300px) / auto-flow 300px;
+        grid-gap: 50px;
+        margin-left: 50px;
+        width: 100%;
+    }
+
+    .grid-columns > img {
+        background-color: #8ca0ff;
+        width: 300px;
+        height: 300px;
+    }
+
+`
 
 
 export const SocialLinks = styled.footer`
-    
+
     text-align: center;
     
     img{ 
