@@ -6,9 +6,6 @@ export const Container = styled.div` /* My tag body have a default 8px margin th
     box-sizing: border-box;
     
     font-family: sans-serif;
-    width: 100%;
-    min-height: 100vh;
-
 `;
 
 export const Header = styled.header`
@@ -212,7 +209,7 @@ export const MainContent = styled.main`
             margin-bottom: 5px;
         }
     }
-    @media only screen and (max-width:700px) {
+    @media (max-width:700px) {
         flex-direction: column-reverse;
         margin: 50px 0;
         
@@ -249,11 +246,9 @@ export const Games = styled.section`
     justify-content: space-between;
     align-items: center;
     margin: 100px 0;
+    max-width: 100%;
     padding-left: 8%;
     padding-right: 8%;
-    overflow: hidden;
-
-    width: 100%;
 
     .gameTittle {
         position: relative;
@@ -264,7 +259,7 @@ export const Games = styled.section`
     .gameTittle::after {
         content:'';
         width: 10px;
-        height: 57%;
+        height: 60%;
         background: linear-gradient(#ff469f, #ff6062);
         position: absolute;
         left: -40px;
@@ -283,26 +278,60 @@ export const Games = styled.section`
     h2, p {
         margin: 0px;
     }
-
-    img {
-        max-width: auto;
-        max-height: auto;
-    }
     
-    .grid-columns {
-        display: grid;
-        grid: repeat(2, 300px) / auto-flow 300px;
-        grid-gap: 50px;
-        margin-left: 50px;
-        width: 100%;
+    .flexMaster{
+        max-width: 1200px;
     }
 
-    .grid-columns > img {
+    .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: 41px;
+        margin-top: 20px;
+        
+    }
+
+    .gameBox {
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+
+    .gameBox > img {
         background-color: #8ca0ff;
-        width: 300px;
-        height: 300px;
+        max-width: 280px;
+        max-height: 280px;
+        margin: 10px;
     }
 
+    @media (max-width:700px) {
+
+        flex-direction: column-reverse;
+        margin: 50px 0;
+
+        .flexMaster {
+            padding-left: 9px;
+        }
+        .gameTittle {
+            max-width: 233px;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+        
+        p {
+            font-size: 12.5px;
+        }
+
+        .flex {
+            margin-left: 0px;
+        }
+    }
 `
 
 

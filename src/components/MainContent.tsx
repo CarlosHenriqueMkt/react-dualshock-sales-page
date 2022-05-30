@@ -4,7 +4,7 @@ import * as C from '../App.styles'
 function MainContent() {
   return (
     <C.MainContent> {/* Row */}
-          <section className='col-1'>
+          <section className='col-1' id="main">
             <h2>PS4 V2 <br/> DualShock 4</h2>
             <h3>Wireless Controller for PlayStation 4</h3>
             <p>(Compatible/Generic)</p>
