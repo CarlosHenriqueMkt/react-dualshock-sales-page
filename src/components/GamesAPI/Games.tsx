@@ -1,5 +1,5 @@
 import React from 'react'
-import * as C from '../App.styles'
+import * as C from '../../components/GamesAPI/styles'
 
 
 function Games() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import * as C from '../App.styles'
+import * as C from '../NavHeader/styles'
 import { useState } from 'react';
 
 function Header() {

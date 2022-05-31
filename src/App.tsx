@@ -1,9 +1,9 @@
 import * as C from './App.styles'
-import Header from './components/Header';
-import MainContent from './components/MainContent';
-import Games from './components/Games';
-import Cupoms from './components/Cupoms';
-import SocialLinks from './components/SocialLinks';
+import Header from './components/NavHeader/Header';
+import MainContent from './components/Joystick/MainContent';
+import Games from './components/GamesAPI/Games';
+import Cupoms from './components/Form/Cupoms';
+import SocialLinks from './components/Footer/SocialLinks';
 
 
 /* Problems to solve: 
