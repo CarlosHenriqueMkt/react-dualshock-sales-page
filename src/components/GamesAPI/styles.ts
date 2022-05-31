@@ -4,8 +4,7 @@ export const Games = styled.section`
     position: relative;
     justify-content: space-between;
     align-items: center;
-    margin: 100px 0;
-    max-width: 100%;
+    margin: 100px 0;  
     padding-left: 8%;
     padding-right: 8%;
 
@@ -36,10 +35,6 @@ export const Games = styled.section`
 
     h2, p {
         margin: 0px;
-    }
-    
-    .flexMaster{
-        max-width: 1200px;
     }
 
     .flex {

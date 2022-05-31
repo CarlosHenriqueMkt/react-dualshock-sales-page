@@ -4,6 +4,7 @@ import MainContent from './components/Joystick/MainContent';
 import Games from './components/GamesAPI/Games';
 import Cupoms from './components/Form/Cupoms';
 import SocialLinks from './components/Footer/SocialLinks';
+import NewGames from './components/News/NewGames';
 
 
 /* Problems to solve: 
@@ -21,9 +22,11 @@ const App = () => {
       
       <Games /> {/* List of Exclusive Games */}
 
-      <Cupoms />
+      <Cupoms /> {/* Form to take Leads */}
 
-      <SocialLinks />
+      <NewGames /> {/* List of Articles about New Games */}
+
+      <SocialLinks /> {/* Main Social Media Links */}
 
     </C.Container>
   );

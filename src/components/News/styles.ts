@@ -1,5 +1,3 @@
 import styled from "styled-components";
 
-export const Cupom = styled.form`
-    
-`
+export const NewGame = styled.section``
