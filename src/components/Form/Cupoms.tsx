@@ -28,7 +28,8 @@ function Cupoms() {
 
   return (
     <C.Cupom>
-      <form className='register-form' onSubmit={handleSubmit}>
+      <form className='registerForm' onSubmit={handleSubmit}>
+      <h3 className='subscribeTitle'>Subscribe and receive amazing discounts in exclusive games!</h3>
       {submitted && valid ? <div className="sucess message">Success! Thank you for registering</div> : null}
     <input
       onChange={handleNameInputChange}
