@@ -5,18 +5,18 @@ function NewGames() {
   return (
     <C.NewGame>
       <article className='newsTitle'>
-      <h2>PlayStation Exclusive Games</h2>
-      <p>Meet some of the best games to test your new DualShock 4</p>
+      <h2>Breaking News</h2>
+      <p>Know about all the hotest news of PlayStation releases</p>
       </article>
 
-<section className='flex'>
+<section className='flex' id="news">
 
 <figure>
       <div className="gallery">
     <a target="_blank" href="detroit.jpg">
       <img src=".\img\detroit.jpg" alt="Cinque Terre" width="600" height="400"></img>
     </a>
-    <p className="paragraph">Add a description of the image here</p>
+    <p className="paragraph">Sou o título da notícia 1</p>
   </div>
 </figure>
 
@@ -26,7 +26,7 @@ function NewGames() {
     <a target="_blank" href="detroit.jpg">
       <img src=".\img\detroit.jpg" alt="Forest" width="600" height="400"></img>
     </a>
-    <p className="paragraph">Add a description of the image here</p>
+    <p className="paragraph">Sou o título da notícia 2</p>
   </div>
 </figure>
 
@@ -35,7 +35,7 @@ function NewGames() {
     <a target="_blank" href="detroit.jpg">
       <img src=".\img\detroit.jpg" alt="Northern Lights" width="600" height="400"></img>
     </a>
-    <p className="paragraph">Add a description of the image here</p>
+    <p className="paragraph">Sou o título da notícia 3</p>
   </div>
 </figure>
 
@@ -44,7 +44,7 @@ function NewGames() {
     <a target="_blank" href="detroit.jpg">
       <img src=".\img\detroit.jpg" alt="Northern Lights" width="600" height="400"></img>
     </a>
-    <p className="paragraph">Add a description of the image here</p>
+    <p className="paragraph">Sou o título da notícia 4</p>
   </div>
 </figure>
 </section>

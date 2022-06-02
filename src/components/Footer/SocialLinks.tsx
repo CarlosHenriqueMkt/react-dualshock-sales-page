@@ -1,14 +1,38 @@
 import React from 'react'
 import * as C from '../../components/Footer/styles'
+import { FaFacebookSquare, FaTwitterSquare, FaInstagramSquare } from 'react-icons/fa'
 
 function SocialLinks() {
   return (
     <C.SocialLinks>
-        <footer id="footer">
-        <img src="./img/fb.png" alt="" />
-        <img src="./img/tw.png" alt="" />
-        <img src="./img/ig.png" alt="" />
-        </footer>
+      <footer className="footer-distributed">
+
+<div className="footer-right">
+
+  <a href="https://www.facebook.com/PlayStationBR"><i className="facebook"><FaFacebookSquare /></i></a>
+  <a href="https://twitter.com/PlayStation_BR"><i className="twitter"><FaTwitterSquare /></i></a>
+  <a href="https://www.instagram.com/playstation_br/"><i className="Instagram"><FaInstagramSquare /></i></a>
+
+</div>
+
+<div className="footer-left">
+
+  <p className="footer-links">
+    <a className="link-1" href="#home">Home</a>
+
+    <a href="#main">DualShock 4</a>
+
+    <a href="#games">Exclusive Games</a>
+
+    <a href="#cupom">Cupoms</a>
+
+    <a href="#news">Breaking News</a>
+  </p>
+
+  <p>Sony Interactive Entertainment LLC &copy; 2022</p>
+</div>
+
+</footer>
       </C.SocialLinks>
   )
 }

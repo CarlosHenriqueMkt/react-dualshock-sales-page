@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import * as C from '../Form/styles'
+import * as C from './styles'
 
 function Cupoms() {
   const [values, setValues] = useState({
@@ -28,7 +28,7 @@ function Cupoms() {
 
   return (
     <C.Cupom>
-      <form className='registerForm' onSubmit={handleSubmit}>
+      <form id="discount" className='registerForm' onSubmit={handleSubmit}>
       <h3 className='subscribeTitle'>Subscribe and receive amazing discounts in exclusive games!</h3>
       {submitted && valid ? <div className="sucess message">Success! Thank you for registering</div> : null}
     <input
@@ -49,7 +49,7 @@ function Cupoms() {
     className='formField' 
     type="submit">Subscribe
     </button>
-</form>
+      </form>
     </C.Cupom>
   )
 }

@@ -2,15 +2,9 @@ import * as C from './App.styles'
 import Header from './components/NavHeader/Header';
 import MainContent from './components/Joystick/MainContent';
 import Games from './components/GamesAPI/Games';
-import Cupoms from './components/Form/Cupoms';
+import Discount from './components/Form/Discount';
 import SocialLinks from './components/Footer/SocialLinks';
 import NewGames from './components/News/NewGames';
-
-
-/* Problems to solve: 
-   1. Delete the Default body margin (8px);
-   2. Create the Exclusive Games Grid responsive;
-*/
 
 const App = () => {
   return (
@@ -22,7 +16,7 @@ const App = () => {
       
       <Games /> {/* List of Exclusive Games */}
 
-      <Cupoms /> {/* Form to take Leads */}
+      <Discount /> {/* Form to take Leads */}
 
       <NewGames /> {/* List of Articles about New Games */}
 

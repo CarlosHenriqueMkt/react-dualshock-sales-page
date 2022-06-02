@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const NewGame = styled.section`
-    padding-left: 8%;
-    padding-right: 8%;
-    margin: 100px 0;
+  padding-left: 8%;
+  padding-right: 8%;
+  margin: 100px 0;
 
 .newsTitle {
   position: relative;
@@ -60,7 +60,7 @@ img {
 }
 
 .gallery:hover {
-  border: 1px solid #777;
+  border-radius: 10px;
   background: linear-gradient(to right, #ff469f, #ff6062);
   color: white;
 }
