@@ -11,43 +11,68 @@ function Games() {
       <p>Meet some of the best games to test your new DualShock 4</p>
       </article>
 
-      <div id="games" className="grid">
+      <div id="games" className="flex">
         <div className="gameBox">
-          <img src=".\img\detroit.jpg" alt="" />
+          <a 
+          target="_blank" 
+          rel='noreferrer' 
+          href="">
+            <img 
+            src=".\img\detroit.jpg" 
+            alt="" /></a>
           <p>Detroit: Become Human</p>
         </div>
         <div className="gameBox">
-          <img src=".\img\detroit.jpg" alt="" />
+          <a 
+          target="_blank" 
+          rel='noreferrer' 
+          href="">
+            <img 
+            src=".\img\detroit.jpg" 
+            alt="" /></a>
           <p>Detroit: Become Human</p>
         </div>
         <div className="gameBox">
-          <img src=".\img\detroit.jpg" alt="" />
+          <a 
+          target="_blank" 
+          rel='noreferrer' 
+          href="">
+            <img 
+            src=".\img\detroit.jpg" 
+            alt="" /></a>
           <p>Detroit: Become Human</p>
         </div>
         <div className="gameBox">
-          <img src=".\img\detroit.jpg" alt="" />
+          <a 
+          target="_blank" 
+          rel='noreferrer' 
+          href="">
+            <img 
+            src=".\img\detroit.jpg" 
+            alt="" /></a>
           <p>Detroit: Become Human</p>
         </div>
         <div className="gameBox">
-          <img src=".\img\detroit.jpg" alt="" />
+          <a 
+          target="_blank" 
+          rel='noreferrer' 
+          href="">
+            <img 
+            src=".\img\detroit.jpg" 
+            alt="" /></a>
           <p>Detroit: Become Human</p>
         </div>
         <div className="gameBox">
-          <img src=".\img\detroit.jpg" alt="" />
+          <a 
+          target="_blank" 
+          rel='noreferrer' 
+          href="">
+            <img 
+            src=".\img\detroit.jpg" 
+            alt="" /></a>
           <p>Detroit: Become Human</p>
         </div>
-        <div className="gameBox">
-          <img src=".\img\detroit.jpg" alt="" />
-          <p>Detroit: Become Human</p>
-        </div>
-        <div className="gameBox">
-          <img src=".\img\detroit.jpg" alt="" />
-          <p>Detroit: Become Human</p>
-        </div>
-        <div className="gameBox">
-          <img src=".\img\detroit.jpg" alt="" />
-          <p>Detroit: Become Human</p>
-        </div>
+        
       </div>
     </section>
   </C.Games>

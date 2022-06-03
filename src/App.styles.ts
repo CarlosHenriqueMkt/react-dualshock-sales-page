@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle, css } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 
 export const Container = styled.div` /* My tag body have a default 8px margin that I don't know how to delete */
     margin: 0;

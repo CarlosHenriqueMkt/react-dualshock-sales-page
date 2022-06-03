@@ -66,7 +66,7 @@ export const Header = styled.header`
         }
 
         .openMenu {
-            height: 118px;
+            height: 145px;
             display: inline-block;
         }
 

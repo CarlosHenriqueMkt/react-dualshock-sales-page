@@ -9,9 +9,9 @@ function SocialLinks() {
 
 <div className="footer-right">
 
-  <a href="https://www.facebook.com/PlayStationBR"><i className="facebook"><FaFacebookSquare /></i></a>
-  <a href="https://twitter.com/PlayStation_BR"><i className="twitter"><FaTwitterSquare /></i></a>
-  <a href="https://www.instagram.com/playstation_br/"><i className="Instagram"><FaInstagramSquare /></i></a>
+  <a target="_blank" rel="noreferrer" href="https://www.facebook.com/PlayStationBR"><i className="facebook"><FaFacebookSquare /></i></a>
+  <a target="_blank" rel="noreferrer" href="https://twitter.com/PlayStation_BR"><i className="twitter"><FaTwitterSquare /></i></a>
+  <a target="_blank" rel="noreferrer" href="https://www.instagram.com/playstation_br/"><i className="Instagram"><FaInstagramSquare /></i></a>
 
 </div>
 

@@ -5,6 +5,7 @@ import Games from './components/GamesAPI/Games';
 import Discount from './components/Form/Discount';
 import SocialLinks from './components/Footer/SocialLinks';
 import NewGames from './components/News/NewGames';
+import ControllerFeatures from './components/Features/ControllerFeatures';
 
 /* 
 Problems to solve:
@@ -23,6 +24,8 @@ const App = () => {
 
       <MainContent /> {/* H1, H2, H3, H4, Joystick and Button */}
       
+      <ControllerFeatures />
+
       <Games /> {/* List of Exclusive Games */}
 
       <Discount /> {/* Form to take Leads */}

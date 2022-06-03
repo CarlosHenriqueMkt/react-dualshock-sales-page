@@ -10,18 +10,8 @@ export const Games = styled.section`
 
     .gameTittle {
         position: relative;
-        margin-left: 50px;
         margin-bottom: 10px;
-    }
-
-    .gameTittle::after {
-        content:'';
-        width: 10px;
-        height: 60%;
-        background: linear-gradient(#ff469f, #ff6062);
-        position: absolute;
-        left: -40px;
-        top: 8px;
+        text-align: center;
     }
 
     h2 {
@@ -37,15 +27,12 @@ export const Games = styled.section`
         margin: 0px;
     }
 
-    .grid {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-template-rows: auto;
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
         
         justify-content: space-between;
         
-        
-        margin-left: 41px;
         margin-top: 20px;
         
     }
@@ -57,27 +44,22 @@ export const Games = styled.section`
         max-width: 100%;
     }
 
-    .gameBox > img {
+    .gameBox a > img {
         background-color: #8ca0ff;
         max-width: 280px;
-        max-height: 280px;
+        max-height: 157px;
         margin: 10px;
+        border-radius: 10px;
     }
 
     @media (max-width:700px) {
 
-        flex-direction: column-reverse;
+        display: flex;
+        flex-direction: column;
         margin: 50px 0;
 
-        .flexMaster {
-            padding-left: 9px;
-        }
-        .gameTittle {
-            max-width: 233px;
-        }
-
         h2 {
-            font-size: 25px;
+            font-size: 24px;
         }
         
         p {
@@ -85,7 +67,12 @@ export const Games = styled.section`
         }
 
         .flex {
-            margin-left: 0px;
+            justify-content: center;
+        }
+
+        img {
+            width: 300px;
+            height: auto;
         }
     }
 `

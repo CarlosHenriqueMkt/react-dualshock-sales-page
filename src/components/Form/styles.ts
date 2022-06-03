@@ -1,26 +1,17 @@
 import styled from "styled-components";
 
 export const Cupom = styled.form`
-    padding-left: 8%;
-    padding-right: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
     margin: 100px 0;
     
     
     .registerForm{
         position: relative;
-        margin-left: 50px;
         margin-bottom: 10px;
     }
 
-    .registerForm::after {
-        content:'';
-        width: 10px;
-        height: 57%;
-        background: linear-gradient(#ff469f, #ff6062);
-        position: absolute;
-        left: -40px;
-        top: 8px;
-    }
+
     .formField {
         width: 100%;
         display: flex;
@@ -50,9 +41,11 @@ export const Cupom = styled.form`
 
     @media (max-width:700px) {
 
-    flex-direction: column-reverse;
+    flex-direction: row;
     margin: 50px 0;
-    padding-right: 20%;
+    padding-left: 8%;
+    padding-right: 8%;
+    align-items: center;
 
     }
 
