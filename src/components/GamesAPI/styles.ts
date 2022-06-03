@@ -37,12 +37,14 @@ export const Games = styled.section`
         margin: 0px;
     }
 
-    .flex {
-        display: flex;
-        flex-direction: row;
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        
         justify-content: space-between;
-        flex-wrap: wrap;
-        align-items: center;
+        
+        
         margin-left: 41px;
         margin-top: 20px;
         

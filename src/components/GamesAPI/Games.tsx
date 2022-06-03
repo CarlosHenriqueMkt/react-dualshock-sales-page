@@ -11,7 +11,7 @@ function Games() {
       <p>Meet some of the best games to test your new DualShock 4</p>
       </article>
 
-      <div id="games" className="flex">
+      <div id="games" className="grid">
         <div className="gameBox">
           <img src=".\img\detroit.jpg" alt="" />
           <p>Detroit: Become Human</p>
@@ -48,12 +48,6 @@ function Games() {
           <img src=".\img\detroit.jpg" alt="" />
           <p>Detroit: Become Human</p>
         </div>
-        <div className="gameBox">
-          <img src=".\img\detroit.jpg" alt="" />
-          <p>Detroit: Become Human</p>
-        </div>
-       
-        
       </div>
     </section>
   </C.Games>

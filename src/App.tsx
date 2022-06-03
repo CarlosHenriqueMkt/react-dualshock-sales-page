@@ -6,6 +6,15 @@ import Discount from './components/Form/Discount';
 import SocialLinks from './components/Footer/SocialLinks';
 import NewGames from './components/News/NewGames';
 
+/* 
+Problems to solve:
+  1. mobile responsivity using Grid
+  2. preventDefault isn't working in the form
+  3. Include the features component
+  4. Include depoiments component
+  5.    
+*/
+
 const App = () => {
   return (
     <C.Container> {/* Body */}

@@ -4,6 +4,7 @@ export const NewGame = styled.section`
   padding-left: 8%;
   padding-right: 8%;
   margin: 100px 0;
+  box-sizing: border-box;
 
 .newsTitle {
   position: relative;
@@ -40,24 +41,25 @@ p{
     
 .flex {
   position: relative;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+
+  
   text-align: center;
-  max-width: 100%;
-  margin-left: 41px;
+  
+  margin-left: 10px;
   margin-top: 20px;
     }
 
 img {
         background-color: #8ca0ff;
-        max-width: 280px;
-        max-height: 280px;
+        width: 280px;
+        height: 280px;
+        border-radius: 10px;
+        
     }
-
-.gallery {
-  border: 0px solid #ccc;
-}
 
 .gallery:hover {
   border-radius: 10px;
@@ -73,11 +75,7 @@ img {
 .paragraph {
   padding: 10px;
   text-align: center;
-  font-size: 15px;
-}
-
-* {
-  box-sizing: border-box;
+  font-size: 14px;
 }
 
 
