@@ -1,5 +1,5 @@
 import React from 'react'
-import * as C from '../../components/Joystick/styles'
+import * as C from './styles'
 
 function MainContent() {
   return (

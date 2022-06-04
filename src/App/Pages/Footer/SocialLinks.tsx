@@ -1,5 +1,5 @@
 import React from 'react'
-import * as C from '../../components/Footer/styles'
+import * as C from './styles'
 import { FaFacebookSquare, FaTwitterSquare, FaInstagramSquare } from 'react-icons/fa'
 
 function SocialLinks() {

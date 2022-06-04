@@ -6,7 +6,11 @@ export const Features = styled.section`
     align-items: center;
     margin: 100px 0;  
     padding-left: 8%;
-    padding-right: 8%;  
+    padding-right: 8%;
+
+section {
+  margin-top: 20px;
+}
 
 .row {
   display: flex;
@@ -14,13 +18,16 @@ export const Features = styled.section`
 }
 
 .featuresTitle {
-  position: relative;
-  margin-bottom: 20px;
   text-align: center;
+  color: #707070;
 }
 
+h2 {
+  font-size: 34px;
+    }
+
 h2, p {
-        margin: 0px;
+  margin: 0px;
     }
 
 .column {

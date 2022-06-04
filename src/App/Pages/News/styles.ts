@@ -7,9 +7,8 @@ export const NewGame = styled.section`
   box-sizing: border-box;
 
 .newsTitle {
-  position: relative;
-  margin-bottom: 10px;
   text-align: center;
+  color: #707070;
 }
 
 .newsTitle h2 {

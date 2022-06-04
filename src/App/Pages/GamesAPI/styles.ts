@@ -9,30 +9,22 @@ export const Games = styled.section`
     padding-right: 8%;
 
     .gameTittle {
-        position: relative;
-        margin-bottom: 10px;
         text-align: center;
+        color: #707070
     }
-
+    
     h2 {
-        font-size: 34px;
-    }
-
-    p {
-        color: #707070;
-        font-size: 17px;
+    font-size: 34px;
     }
 
     h2, p {
-        margin: 0px;
+    margin: 0px;
     }
 
     .flex {
         display: flex;
         flex-wrap: wrap;
-        
         justify-content: space-between;
-        
         margin-top: 20px;
         
     }
@@ -54,25 +46,34 @@ export const Games = styled.section`
 
     @media (max-width:700px) {
 
-        display: flex;
-        flex-direction: column;
-        margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
 
-        h2 {
-            font-size: 24px;
-        }
-        
-        p {
-            font-size: 12.5px;
-        }
-
-        .flex {
-            justify-content: center;
-        }
-
-        img {
-            width: 300px;
-            height: auto;
-        }
+    .flex {
+    justify-content: center;
+    
     }
+
+    img {
+    width: 300px;
+    height: auto;
+    }
+}
+
+    @media (max-width: 500px) {
+    
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+
+    .flex {
+    justify-content: center;
+    }
+
+    img {
+    width: 250px;
+    height: auto;
+    }
+}
 `

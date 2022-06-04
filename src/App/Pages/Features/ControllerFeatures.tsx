@@ -1,16 +1,13 @@
 import React from 'react'
-import * as C from './style'
+import * as C from './styles'
+import Divider from '@mui/material/Divider';
 
 function ControllerFeatures() {
+
   return (
     <C.Features>
+      <Divider><article className="featuresTitle"> <h2>New Features</h2> </article></Divider>
       <section>
-
-      <article className="featuresTitle">
-      <h2>DualShock 4 New Features</h2>
-      <p>A comparation between DualShock 3 and 4</p>
-      </article>
-
       <div className="row">
       
         {/* <!-- Column One --> */}

@@ -1,16 +1,13 @@
 import React from 'react'
-import * as C from '../../components/GamesAPI/styles'
+import * as C from './styles'
+import Divider from '@mui/material/Divider';
 
 
 function Games() {
   return (
   <C.Games>
+    <Divider><article className='gameTittle'> <h2>Exclusive Games</h2></article></Divider>
     <section>
-      <article className='gameTittle'>
-      <h2>PlayStation Exclusive Games</h2>
-      <p>Meet some of the best games to test your new DualShock 4</p>
-      </article>
-
       <div id="games" className="flex">
         <div className="gameBox">
           <a 

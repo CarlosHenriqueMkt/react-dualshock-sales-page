@@ -1,11 +1,11 @@
-import * as C from './App.styles'
-import Header from './components/NavHeader/Header';
-import MainContent from './components/Joystick/MainContent';
-import Games from './components/GamesAPI/Games';
-import Discount from './components/Form/Discount';
-import SocialLinks from './components/Footer/SocialLinks';
-import NewGames from './components/News/NewGames';
-import ControllerFeatures from './components/Features/ControllerFeatures';
+import * as C from './Styles/App.styles'
+import Header from './Pages/NavHeader/Header';
+import MainContent from './Pages/Joystick/MainContent';
+import Games from './Pages/GamesAPI/Games';
+import Discount from './Pages/Form/Discount';
+import SocialLinks from './Pages/Footer/SocialLinks';
+import NewGames from './Pages/News/NewGames';
+import ControllerFeatures from './Pages/Features/ControllerFeatures';
 
 /* 
 Problems to solve:

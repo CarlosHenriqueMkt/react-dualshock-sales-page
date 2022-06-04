@@ -1,13 +1,11 @@
+import { Divider } from '@mui/material'
 import React from 'react'
 import * as C from '../News/styles'
 
 function NewGames() {
   return (
     <C.NewGame>
-<article className='newsTitle'>
-      <h2>Breaking News</h2>
-      <p>Know about all the hotest news of PlayStation releases</p>
-      </article>
+      <Divider><article className='newsTitle'><h2>Breaking News</h2></article></Divider>
 
 <section className='flex' id="news">
 
