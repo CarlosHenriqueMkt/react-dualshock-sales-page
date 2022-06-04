@@ -1,6 +1,9 @@
 import React from 'react'
 import * as C from './styles'
 import Divider from '@mui/material/Divider';
+import { VscDebugStart } from 'react-icons/vsc';
+import { MdTouchApp } from 'react-icons/md';
+import { GiConsoleController } from 'react-icons/gi';
 
 function ControllerFeatures() {
 
@@ -14,13 +17,11 @@ function ControllerFeatures() {
         <div className="column">
           <div className="card">
             <div className="icon">
-              <i className="fa-solid fa-user"></i>
+              <MdTouchApp />
             </div>
-            <h3>User Friendly</h3>
+            <h3>Front and center: touchpad</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-              asperiores natus ad molestiae aliquid explicabo. Iste eaque quo et
-              commodi.
+            This 2-inch wide, clickable slick spot supports two points of touch and smartphone-like swiping and pinch-to-zoom gestures.
             </p>
           </div>
         </div>
@@ -29,13 +30,11 @@ function ControllerFeatures() {
         <div className="column">
           <div className="card">
             <div className="icon">
-              <i className="fa-solid fa-shield-halved"></i>
+              <VscDebugStart />
             </div>
-            <h3>Super Secure</h3>
+            <h3>Farewell, start and select</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-              asperiores natus ad molestiae aliquid explicabo. Iste eaque quo et
-              commodi.
+            These new ancillary buttons replace start and select, which have been standard buttons since the first PlayStation console.
             </p>
           </div>
         </div>
@@ -44,13 +43,11 @@ function ControllerFeatures() {
         <div className="column">
           <div className="card">
             <div className="icon">
-              <i className="fa-solid fa-headset"></i>
+              <GiConsoleController />
             </div>
-            <h3>Quick Support</h3>
+            <h3>Top of its game: Head-and-shoulders better</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-              asperiores natus ad molestiae aliquid explicabo. Iste eaque quo et
-              commodi.
+            Now gamers could feel as if they were stepping on a gas pedal or holding down a gun's firing pin at different degrees.
             </p>
           </div>
         </div>

@@ -55,6 +55,10 @@ export const Games = styled.section`
     
     }
 
+    h2 {
+        font-size: 24px;
+    }
+
     img {
     width: 300px;
     height: auto;
@@ -69,6 +73,10 @@ export const Games = styled.section`
 
     .flex {
     justify-content: center;
+    }
+
+    h2 {
+        font-size: 24px;
     }
 
     img {

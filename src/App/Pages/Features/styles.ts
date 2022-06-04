@@ -82,12 +82,18 @@ h2, p {
   height: 2.25em;
   width: 2.25em;
 }
-@media (min-width: 768px) {
+
+@media (max-width: 500px) {
+  h2 {
+        font-size: 24px;
+    }
+}
+@media (min-width: 700px) {
   section {
     padding: 1em 7em;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   section {
     padding: 1em;
   }

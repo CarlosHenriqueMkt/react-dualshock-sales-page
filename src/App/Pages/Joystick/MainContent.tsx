@@ -9,16 +9,12 @@ function MainContent() {
             <h3>Wireless Controller for PlayStation 4</h3>
             <p>(Compatible/Generic)</p>
             <h4>$32.50</h4>
-            <button type="button">Buy Now <img src="./img/arrow.png" alt="" /></button>
+            <a target="_blank" rel="noreferrer" href="https://www.playstation.com/pt-br/accessories/dualshock-4-wireless-controller/"><button type="button">Buy Now <img src="./img/arrow.png" alt="" /></button></a>
           </section>
           
           <section className='col-2'>
-            <img src="./img/controller.png" alt="" className='controller' />
+            <img src="./img/controller2.png" alt="" className='controller' />
             <div className="color-box"></div>
-            <div className="add-btn">
-              <img src="./img/add.png" alt="" />
-              <p><small>Add to Cart</small></p>
-            </div>
           </section>
       </C.MainContent>
   )
