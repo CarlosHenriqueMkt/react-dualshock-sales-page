@@ -9,11 +9,8 @@ import ControllerFeatures from './Pages/Features/ControllerFeatures';
 
 /* 
 Problems to solve:
-  1. mobile responsivity using Grid
-  2. preventDefault isn't working in the form
-  3. Include the features component
-  4. Include depoiments component
-  5.    
+  1. preventDefault isn't working in the form
+  2. Include depoiments component   
 */
 
 const App = () => {

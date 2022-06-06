@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import * as C from './styles'
+import 'animate.css';
 
 function Cupoms() {
   const [values, setValues] = useState({
@@ -28,7 +29,7 @@ function Cupoms() {
 
   return (
     <C.Cupom>
-      <form id="discount" className='registerForm' onSubmit={handleSubmit}>
+      <form id="discount" className='registerForm animate__animated animate__fadeInRightBig' onSubmit={handleSubmit}>
       <h3 className='subscribeTitle'>Subscribe and receive amazing discounts in exclusive games!</h3>
       {submitted && valid ? <div className="sucess message">Success! Thank you for registering</div> : null}
     <input

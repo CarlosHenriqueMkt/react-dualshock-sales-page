@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const Games = styled.section`
     position: relative;
     justify-content: space-between;

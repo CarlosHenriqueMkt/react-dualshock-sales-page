@@ -35,6 +35,9 @@ export const MainContent = styled.main`
             font-size: 20px;
             margin: 30px 0;
         }
+        a{
+            text-decoration: none;
+        }
         button {
             width: 140px;
             border: 0;

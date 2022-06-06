@@ -1,13 +1,14 @@
 import { Divider } from '@mui/material'
 import React from 'react'
 import * as C from '../News/styles'
+import 'animate.css';
 
 function NewGames() {
   return (
     <C.NewGame>
-      <Divider><article className='newsTitle'><h2>Breaking News</h2></article></Divider>
+      <Divider><article className='newsTitle animate__animated animate__zoomIn'><h2>Breaking News</h2></article></Divider>
 
-<section className='flex' id="news">
+<section className='flex animate__animated animate__fadeInUp' id="news">
 
 <figure>
   <div className="gallery">
@@ -103,6 +104,7 @@ function NewGames() {
     <p className="paragraph">Creators share development stories on the genre-defining, co-op side-scrolling series, from collaborative two-player action to chaotic friendly fire.</p>
   </div>
 </figure>
+
 </section>
     </C.NewGame>
   )

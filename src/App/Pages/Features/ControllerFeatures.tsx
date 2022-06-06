@@ -4,14 +4,15 @@ import Divider from '@mui/material/Divider';
 import { VscDebugStart } from 'react-icons/vsc';
 import { MdTouchApp } from 'react-icons/md';
 import { GiConsoleController } from 'react-icons/gi';
+import 'animate.css';
 
 function ControllerFeatures() {
 
   return (
     <C.Features>
-      <Divider><article className="featuresTitle"> <h2>New Features</h2> </article></Divider>
+      <Divider><article className="featuresTitle wow animate__animated animate__zoomIn"> <h2>New Features</h2> </article></Divider>
       <section>
-      <div className="row">
+      <div className="row animate__animated animate__fadeInUp">
       
         {/* <!-- Column One --> */}
         <div className="column">
