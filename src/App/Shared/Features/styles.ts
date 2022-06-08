@@ -1,9 +1,6 @@
 import styled from "styled-components";
 
 export const Features = styled.section`
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
     margin: 100px 0;  
     padding-left: 8%;
     padding-right: 8%;
@@ -13,6 +10,7 @@ section {
 }
 
 .row {
+  align-items: stretch;
   display: flex;
   flex-wrap: wrap;
 }
@@ -85,15 +83,22 @@ h2, p {
 
 @media (max-width: 500px) {
   h2 {
-        font-size: 24px;
+    font-size: 24px;
     }
+
+  .row {
+    align-items: stretch;
+  }
 }
 @media (min-width: 700px) {
   section {
     padding: 1em 7em;
   }
+  .row {
+    align-items: stretch;
+  }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1181px) {
   section {
     padding: 1em;
   }
@@ -104,6 +109,9 @@ h2, p {
     flex: 0 0 33.33%;
     max-width: 30%;
     padding: 0 1em;
+  }
+  .row {
+    align-items: stretch;
   }
 }
 `

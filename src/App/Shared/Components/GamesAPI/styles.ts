@@ -1,10 +1,6 @@
 import styled from "styled-components";
 
-
 export const Games = styled.section`
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
     margin: 100px 0;  
     padding-left: 8%;
     padding-right: 8%;
@@ -16,6 +12,10 @@ export const Games = styled.section`
     
     h2 {
     font-size: 34px;
+    }
+
+    p {
+        font-weight: 600;
     }
 
     h2, p {

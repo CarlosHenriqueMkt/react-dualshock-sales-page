@@ -32,16 +32,14 @@ p{
   position: relative;
   
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-
-  max-width: 1200px;
   
+  justify-content: center;
   text-align: center;
   
   margin-top: 20px;
-  justify-content: space-between;
-    }
+  gap: 20px;
+}
 
 .gallery:hover {
   border-radius: 10px;
@@ -50,13 +48,13 @@ p{
 }
 
 .gallery img {
-  max-width: 280px;
-  height: auto;
+  width: 100%;
+  object-fit: cover;
   border-radius: 10px;
 }
 
 .gallery {
-  max-width: 280px;
+  width: 100%;
   overflow-wrap: break-word;
 }
 
@@ -65,15 +63,14 @@ p{
   
   text-align: center;
   font-weight: 550;
-  font-size: 10px;
+  font-size: 22px;
   
   word-wrap: break-word;
   hyphens: auto;
 }
 
-figure {
-    display: block;
-    margin: 10px;
+.flex > div {
+    flex: 0 1 49%; 
 }
 
 @media (max-width: 700px) {
@@ -97,17 +94,24 @@ figure {
 }
 
 @media (max-width: 500px) {
+  .flex > div {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+  }
+
   .flex {
     width: 100%;
     margin-top: 20px;
   }
+  
+  .paragraph {
+    font-size: 16px;
+    font-weight: 600;
+  }
 
   .gallery{
     max-width: 250px;
-    justify-content: center;
-  }
-
-  .flex{
     justify-content: center;
   }
 
