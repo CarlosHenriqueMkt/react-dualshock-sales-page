@@ -110,23 +110,18 @@ p{
     font-weight: 600;
   }
 
-  .gallery{
-    max-width: 250px;
-    justify-content: center;
-  }
-
-  img {
-    width: 250px;
+  .flex > img{
+    width: 300px;
     height: auto;
   }
 
   h2 {
-      font-size: 24px;
-        }
+    font-size: 24px;
+  }
         
   p {
-     font-size: 12.5px;
-        }
+    font-size: 12.5px;
+  }
 }
 
 .clearfix:after {

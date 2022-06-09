@@ -45,6 +45,28 @@ export const Games = styled.section`
         border-radius: 10px;
     }
 
+    @media (max-width:1065px){
+        display: flex;
+        flex-direction: column;
+        flex: 0 1 48%;
+        margin-top: 50px 0;
+        
+        .flex {
+        justify-content: center;
+        }
+
+        h2 {
+        font-size: 24px;
+        }
+
+        .gallery img {
+        width: 300px;
+        object-fit: cover;
+        }
+
+    }
+
+
     @media (max-width:700px) {
 
     display: flex;

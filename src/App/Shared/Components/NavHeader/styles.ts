@@ -49,7 +49,7 @@ export const Header = styled.header`
         overflow: hidden;
     }
 
-    @media (max-width:700px) {
+    @media (max-width:737px) {
         
         nav {
             justify-content: space-between;
