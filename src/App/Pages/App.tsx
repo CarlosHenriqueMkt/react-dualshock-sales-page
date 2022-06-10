@@ -5,7 +5,7 @@ import Games from "../Shared/Components/GamesAPI/Games";
 import Discount from "../Shared/Components/Form/Discount";
 import SocialLinks from "../Shared/Components/Footer/SocialLinks";
 import NewGames from "../Shared/Components/News/NewGames";
-import ControllerFeatures from "../Shared/Features/ControllerFeatures";
+import ControllerFeatures from "../Shared/Components/Features/ControllerFeatures";
 
 /* 
 Problems to solve:
