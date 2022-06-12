@@ -7,13 +7,6 @@ import SocialLinks from "../Shared/Components/Footer/SocialLinks";
 import NewGames from "../Shared/Components/News/NewGames";
 import ControllerFeatures from "../Shared/Components/Features/ControllerFeatures";
 
-/* 
-Problems to solve:
-  1. preventDefault isn't working in the form
-  2. Include depoiments component 
-  3. Animations appear with the scroll  
-*/
-
 const App = () => {
 	return (
 		<C.Container>
